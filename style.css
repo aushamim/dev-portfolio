@@ -6,21 +6,28 @@ h1 {
   color: #000046;
 }
 
-body {
-  font-family: "Roboto", sans-serif;
+p {
+  color: rgb(100, 100, 100);
 }
 
-section {
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+.flexible-container {
   display: flex;
+  margin-bottom: 100px;
 }
 
 .half-width {
   width: 50%;
   padding-left: 6%;
+  padding-right: 8%;
 }
 
 .half-width img {
-  width: 80%;
+  width: 100%;
 }
 
 .button {
@@ -30,4 +37,50 @@ section {
   background-image: linear-gradient(#000046, #1cb5e0);
   border-radius: 20px;
   padding: 10px 30px;
+}
+
+.top {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
+
+.dream {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.experience-design {
+  border-radius: 5px;
+  width: 50%;
+  padding-left: 6%;
+  padding-right: 8%;
+  margin-left: 5%;
+  margin-right: 5%;
+  box-shadow: 10px 10px 30px grey;
+}
+
+.experience {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.exp-design-1 {
+  border-left: 7px solid;
+  border-radius: 5px;
+  border-image: linear-gradient(#f78868, #fb6856);
+  border-image-slice: 1;
+}
+
+.exp-design-2 {
+  border-left: 7px solid;
+  border-radius: 5px;
+  border-image: linear-gradient(#000046, #1cb5e0);
+  border-image-slice: 1;
+}
+
+footer {
+  color: rgb(100, 100, 100);
+  text-align: center;
 }
